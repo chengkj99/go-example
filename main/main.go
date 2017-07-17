@@ -1,7 +1,7 @@
 package main
 
 import (
-	"go-file/example"
+	"go-example/example"
 )
 
 func main() {
@@ -26,6 +26,10 @@ func main() {
 	// time go run main.go 查看运行时间
 	// example.TimeoutsFunc()
 	// example.NonBlockingChannelOperationsFunc()
-	example.ChannelCloseFunc()
+	// example.ChannelCloseFunc()
+	// example.ChannelRangeFunc()
+	// example.TimerFunc()
+	// example.TickersFunc()
+	example.WorkerPoolsFunc()
 
 }
