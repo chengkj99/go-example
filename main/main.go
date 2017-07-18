@@ -30,6 +30,10 @@ func main() {
 	// example.ChannelRangeFunc()
 	// example.TimerFunc()
 	// example.TickersFunc()
-	example.WorkerPoolsFunc()
+	// example.WorkerPoolsFunc()
+	// example.RateLimitingFunc()
+	// example.AtomicCountersFunc()
+	// example.MutexesFunc()
+	example.StatefulGoroutinesFunc()
 
 }

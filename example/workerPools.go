@@ -31,6 +31,7 @@ func WorkerPoolsFunc() {
 }
 
 // 一个工作池 FIFO 符合队列先进先出的特性
+
 func workers(id int, jobs <-chan int, results chan<- int) {
 	for j := range jobs {
 		fmt.Println("worker", id, "processing job ", j)

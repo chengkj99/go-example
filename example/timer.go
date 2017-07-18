@@ -17,10 +17,11 @@ func TimerFunc() {
 	// 这里`<-timer1.C`在timer的通道`C`上面阻塞等待，直到有个值发送给该
 	// 通道，通知通道计时器已经等待完成。
 	// timer.NewTimer方法获取的timer1的结构体定义为
-	// type Ticket struct{
-	//  C <-chan Time
-	//}
-	<-timer1.C //?? C 是什么意思
+	// type Timer struct {
+	// 	C <-chan Time
+	// 	r runtimeTimer
+	// }
+	<-timer1.C //?? C 是什么意思 结构体的通道类型变量名 通过其获取通道数据
 	fmt.Println("Timer 1 expired.")
 
 	//如果你仅仅需要等待的话，你可以使用`time.Sleep`，
