@@ -34,6 +34,7 @@ func main() {
 	// example.RateLimitingFunc()
 	// example.AtomicCountersFunc()
 	// example.MutexesFunc()
-	example.StatefulGoroutinesFunc()
+	// example.StatefulGoroutinesFunc()
+	example.SortFunc()
 
 }
