@@ -35,6 +35,9 @@ func main() {
 	// example.AtomicCountersFunc()
 	// example.MutexesFunc()
 	// example.StatefulGoroutinesFunc()
-	example.SortFunc()
+	// example.SortFunc()
+	// example.SortByFunc()
+	// example.GoPanicFunc()
+	example.GoDeferFunc()
 
 }
