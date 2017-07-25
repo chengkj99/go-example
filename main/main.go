@@ -38,6 +38,7 @@ func main() {
 	// example.SortFunc()
 	// example.SortByFunc()
 	// example.GoPanicFunc()
-	example.GoDeferFunc()
+	// example.GoDeferFunc()
+	example.CollectionFunc()
 
 }
