@@ -39,6 +39,9 @@ func main() {
 	// example.SortByFunc()
 	// example.GoPanicFunc()
 	// example.GoDeferFunc()
-	example.CollectionFunc()
+	// example.CollectionFunc()
+	// example.StringFunc()
+	// example.RegularExpressionsFunc()
+	example.JsonFunc()
 
 }
