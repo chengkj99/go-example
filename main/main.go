@@ -42,6 +42,11 @@ func main() {
 	// example.CollectionFunc()
 	// example.StringFunc()
 	// example.RegularExpressionsFunc()
-	example.JsonFunc()
+	// example.JsonFunc()
+	// example.TimeFunc()
+	// example.EpochFunc()
+	// example.TimeFormat()
+	// example.RandFunc()
+	example.NumberParsingFunc()
 
 }
