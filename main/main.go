@@ -47,6 +47,7 @@ func main() {
 	// example.EpochFunc()
 	// example.TimeFormat()
 	// example.RandFunc()
-	example.NumberParsingFunc()
+	// example.NumberParsingFunc()
+	example.UrlParse()
 
 }
