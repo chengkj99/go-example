@@ -48,6 +48,7 @@ func main() {
 	// example.TimeFormat()
 	// example.RandFunc()
 	// example.NumberParsingFunc()
-	example.UrlParse()
+	// example.UrlParse()
+	example.Sha1HashesFunc()
 
 }
